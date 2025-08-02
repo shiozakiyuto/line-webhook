@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: line-webhook
+    env: python
+    buildCommand: ""
+    startCommand: "python webhook_server.py"
+    plan: free
+    autoDeploy: true
